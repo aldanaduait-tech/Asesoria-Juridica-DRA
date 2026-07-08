@@ -154,6 +154,9 @@ section p {
 /* 📱 Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
   header {
+    header {
+  position: relative; /* ✅ el encabezado se mueve con el contenido */
+  width: 100%;
     flex-direction: column;       /* logo, texto y menú en columna */
     justify-content: center;      /* centrado vertical */
     align-items: center;
