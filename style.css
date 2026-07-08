@@ -150,38 +150,35 @@ section p {
   line-height: 1.6;      /* mejora la legibilidad */
   margin: 0 0 15px 0;    /* espacio entre párrafos */
 }
-
 /* 📱 Ajustes para pantallas pequeñas */
 @media (max-width: 768px) {
   header {
-    header {
-  position: relative; /* ✅ el encabezado se mueve con el contenido */
     flex-direction: column;       /* logo, texto y menú en columna */
-    justify-content: center;      /* centrado vertical */
-    align-items: center;
-    height: 200PX;                 /* altura automática */
+    align-items: center;          /* centrado horizontal */
+    text-align: center;
     padding: 20px 10px;
   }
 
   .logo {
-    height: 200px;                 /* logo más grande y centrado */
-    margin: 10px 0;
+    height: 200px;                /* ✅ conserva el tamaño del logo */
+    margin-bottom: 10px;
   }
 
   header h1 {
-    font-size: 1.2em;
-    text-align: center;
+    font-size: 1.4em;             /* texto más proporcionado */
     margin: 5px 0;
   }
 
   nav {
-    margin: 10px 0;
+    margin-top: 10px;
   }
 
   nav a {
     display: block;               /* botones uno debajo del otro */
-    margin: 8px 0;
- text-align: center;
+    margin: 6px 0;
     font-size: 1em;
+    text-align: center;
+     }
+}
   }
 }
