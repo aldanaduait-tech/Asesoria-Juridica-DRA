@@ -162,12 +162,12 @@ section p {
   }
 
   .logo {
-    height: 70px;                 /* logo más grande y centrado */
+    height: 110px;                 /* logo más grande y centrado */
     margin: 10px 0;
   }
 
   header h1 {
-    font-size: 1.3em;
+    font-size: 1.5em;
     text-align: center;
     margin: 5px 0;
   }
