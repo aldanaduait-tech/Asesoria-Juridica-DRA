@@ -159,7 +159,7 @@ section p {
     flex-direction: column;       /* logo, texto y menú en columna */
     justify-content: center;      /* centrado vertical */
     align-items: center;
-    height: auto;                 /* altura automática */
+    height: 200PX;                 /* altura automática */
     padding: 20px 10px;
   }
 
